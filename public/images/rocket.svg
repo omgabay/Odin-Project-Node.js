@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Cartoon rocket">
+  <rect width="240" height="240" fill="#fff5e6" />
+  <circle cx="180" cy="60" r="28" fill="#ffd43b" />
+  <g transform="translate(60 40)">
+    <path d="M50 0 C90 25 110 70 110 110 C110 150 90 195 50 220 C10 195 -10 150 -10 110 C-10 70 10 25 50 0 Z" fill="#3a86ff" stroke="#1b1b1f" stroke-width="4" />
+    <circle cx="50" cy="90" r="18" fill="#fff" stroke="#1b1b1f" stroke-width="4" />
+    <path d="M10 140 L-20 170 L10 180 Z" fill="#e36a5c" stroke="#1b1b1f" stroke-width="4" />
+    <path d="M90 140 L120 170 L90 180 Z" fill="#e36a5c" stroke="#1b1b1f" stroke-width="4" />
+    <path d="M50 210 L30 240 L50 230 L70 240 Z" fill="#ff922b" stroke="#1b1b1f" stroke-width="4" />
+  </g>
+</svg>

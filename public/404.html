@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404 - Lost and Found</title>
+    <style>
+      :root {
+        --bg: #f3f0ff;
+        --ink: #1b1b1f;
+        --accent: #845ef7;
+        --accent-2: #ffd43b;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+        background: linear-gradient(160deg, #f9f6ff, var(--bg));
+        color: var(--ink);
+        line-height: 1.5;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header,
+      main {
+        width: min(720px, 92vw);
+      }
+      header {
+        padding: 2rem 1.5rem 1rem;
+      }
+      nav a {
+        display: inline-block;
+        margin: 0.25rem 0.4rem;
+        padding: 0.4rem 0.7rem;
+        border-radius: 999px;
+        text-decoration: none;
+        color: var(--ink);
+        background: #fff;
+        border: 2px dashed var(--accent);
+      }
+      nav a:hover {
+        border-color: var(--accent-2);
+      }
+      main {
+        padding: 1.5rem;
+      }
+      .card {
+        background: #fff;
+        padding: 1rem 1.2rem;
+        border: 2px solid var(--ink);
+        border-radius: 12px;
+        box-shadow: 6px 6px 0 var(--accent);
+      }
+      .lost {
+        width: min(320px, 88vw);
+        height: auto;
+        border: 2px solid var(--ink);
+        border-radius: 12px;
+        background: #fff;
+        margin: 0.75rem auto 0.5rem;
+      }
+      .big {
+        font-size: 2.5rem;
+        margin: 0 0 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Oops!</h1>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/contact-me.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <div class="card">
+        <p class="big">404</p>
+        <p>This page went on an adventure and forgot to leave a map.</p>
+        <img class="lost" src="/images/lost.png" alt="Lost astronaut" />
+        <p>Try heading back home and we will get you sorted.</p>
+      </div>
+    </main>
+  </body>
+</html>
